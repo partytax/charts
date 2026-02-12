@@ -1104,5 +1104,6 @@ splitBrainDetection:
     failureThreshold: 5
     exec:
       command:
-        - pidof
-        - sh
+        - test
+        - -d
+        - /proc/1
