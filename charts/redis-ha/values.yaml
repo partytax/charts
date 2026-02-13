@@ -1104,6 +1104,6 @@ splitBrainDetection:
     failureThreshold: 5
     exec:
       command:
-        - test
-        - -d
-        - /proc/1
+        - sh
+        - -c
+        - test -d /proc/1
